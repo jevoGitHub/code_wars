@@ -5,7 +5,6 @@ n > 1 and returns an array with all of the integer's divisors
 If the number is prime return the string '(integer) is prime'
 */
 
-
 function divisors(integer) {
     const divisorArr = []
     for (let i = 1; i < integer; i++) {
